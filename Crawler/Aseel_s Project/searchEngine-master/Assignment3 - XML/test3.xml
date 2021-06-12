@@ -1,0 +1,18 @@
+<div spry:region="dsItems1">
+	<table class="dataTable">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Price Per Unit</th>
+			<th>Batter</th>
+			<th>Topping</th>
+		</tr>
+		<tr spry:repeat="dsItems1">
+			<td>{@id}</td>
+			<td>{name}</td>
+			<td>{ppu}</td>
+			<td>{batters/batter}
+			<td>{topping}
+		</tr>
+	</table>
+</div>
